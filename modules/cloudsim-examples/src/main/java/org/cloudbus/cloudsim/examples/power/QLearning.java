@@ -104,6 +104,8 @@ public class QLearning {
         /**
          * Get the state of all hosts
          */
+
+
         for (int i = 0; i < hostNum; i++)
             curX += (String.valueOf(X[i]) + "_");
 
